@@ -4,7 +4,7 @@
 >
 
 	<!-- the absolute path to data source, this can be a folder to be recursively processed -->
-	<dcf:DataSource rdf:about="/home/gsant/RDFGen/data/20210101.csv.enriched">
+	<dcf:DataSource rdf:about="/inputData/20210101.csv.enriched">
 
 		<!-- Required: specifies the connector to be used -->
 		<dcf:connector>csvConnector</dcf:connector>
@@ -24,7 +24,7 @@
 		<dcf:TemplateVariables>?time,?mobile,?mmsi,?lat,?lon,?navStat,?ROT,?SOG,?COG,?Heading,?imo,?Callsign,?Name,?ShipType,?CargoType,?Width,?Length,?TypeOfFixingDevice,?Draught,?Destination,?ETA,?DataSourceType,?A,?B,?C,?D,?Mean_wave_direction_msl,?Mean_wave_direction_of_first_swell_partition_msl,?Mean_wave_direction_of_second_swell_partition_msl,?Mean_wave_direction_of_third_swell_partition_msl,?Mean_wave_period_based_on_first_moment_for_swell_msl,?Mean_wave_period_based_on_first_moment_for_wind_waves_msl,?Mean_wave_period_based_on_first_moment_msl,?Mean_wave_period_based_on_second_moment_for_swell_msl,?Mean_wave_period_based_on_second_moment_for_wind_waves_msl,?Mean_wave_period_msl,?Mean_wave_period_of_first_swell_partition_msl,?Mean_wave_period_of_second_swell_partition_msl,?Mean_wave_period_of_third_swell_partition_msl,?100_metre_U_wind_component_surface,?100_metre_V_wind_component_surface,?10_metre_U_wind_component_surface,?10_metre_V_wind_component_surface,?10_metre_wind_gust_since_previous_post-processing_surface_1_Hour_2</dcf:TemplateVariables>
 
 		<!--optional: if provided the generated triples will be provided at this path -->
-		<dcf:output>dma.ttl</dcf:output>
+		<dcf:output>/output/dma.ttl</dcf:output>
 
 	</dcf:DataSource>
 
