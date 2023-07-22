@@ -4,7 +4,7 @@
 >
 
 	<!-- the absolute path to data source, this can be a folder to be recursively processed -->
-	<dcf:DataSource rdf:about="/RDF-Gen/sample/worldcities.csv">
+	<dcf:DataSource rdf:about="/RDFGen/sample/worldcities.csv">
 
 		<!-- Required: specifies the connector to be used -->
 		<dcf:connector>csvConnector</dcf:connector>
